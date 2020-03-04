@@ -78,7 +78,7 @@ public class Soru2 {
 		firtNumber=getFirstNumber();
 		secondNumber=getSecondNumber();
 		
-		int result= firtNumber / secondNumber;
+		float result= Float.valueOf(firtNumber)/Float.valueOf(secondNumber);
 		System.out.println("" +firtNumber+ " / " +secondNumber+ "= " +result+ "\n");
 		
 		openMenu();
