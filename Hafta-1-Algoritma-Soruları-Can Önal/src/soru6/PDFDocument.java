@@ -1,7 +1,7 @@
 package soru6;
 
 public class PDFDocument {
-		String body;
+		private String body;
 	
 	public PDFDocument(String body) {
 		this.body=body;

@@ -1,7 +1,7 @@
 package soru6;
 
 public class WordDocument {
-		String body;
+		private String body;
 		
 	public WordDocument(String body){
 			this.body=body;
